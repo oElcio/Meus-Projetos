@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Dia dos Namorados</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="hero">
+        <div class="hearts-background">
+            <div class="heart heart-1">💖</div>
+            <div class="heart heart-2">💕</div>
+            <div class="heart heart-3">💗</div>
+            <div class="heart heart-4">💝</div>
+            <div class="heart heart-5">💘</div>
+        </div>
+        <div class="hero-content">
+            <h1 class="main-title">Feliz Dia dos Namorados</h1>
+            <p class="subtitle">Uma página especial para celebrar nosso amor</p>
+        </div>
+    </header>
+
+    <!-- Photo Carousel Section -->
+    <section class="carousel-section">
+        <div class="container">
+            <h2 class="section-title">Nossos Momentos Especiais</h2>
+            
+            <div class="carousel-container">
+                <div class="carousel">
+                    <div class="carousel-slide active">
+                        <div class="photo-card">
+                            <img src="/placeholder.svg?height=400&width=600" alt="Momento especial 1">
+                            <div class="photo-comment">
+                                <p>"Nosso primeiro encontro... Como o tempo voa quando estamos juntos! 💕"</p>
+                            </div>
+                        </div>
+                        <div class="spotify-embed">
+                            <iframe src="https://open.spotify.com/embed/track/4uLU6hMCjMI75M1A2tKUQC" width="100%" height="152" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                        </div>
+                    </div>
+
+                    <div class="carousel-slide">
+                        <div class="photo-card">
+                            <img src="/placeholder.svg?height=400&width=600" alt="Momento especial 2">
+                            <div class="photo-comment">
+                                <p>"Aquele dia perfeito na praia... O sol, o mar e você ao meu lado 🌅"</p>
+                            </div>
+                        </div>
+                        <div class="spotify-embed">
+                            <iframe src="https://open.spotify.com/embed/track/1BxfuPKGuaTgP7aM0Bbdwr" width="100%" height="152" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                        </div>
+                    </div>
+
+                    <div class="carousel-slide">
+                        <div class="photo-card">
+                            <img src="/placeholder.svg?height=400&width=600" alt="Momento especial 3">
+                            <div class="photo-comment">
+                                <p>"Nosso jantar romântico... Cada momento com você é mágico ✨"</p>
+                            </div>
+                        </div>
+                        <div class="spotify-embed">
+                            <iframe src="https://open.spotify.com/embed/track/0tgVpDi06FyKpA1z0VMD4v" width="100%" height="152" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                        </div>
+                    </div>
+
+                    <div class="carousel-slide">
+                        <div class="photo-card">
+                            <img src="/placeholder.svg?height=400&width=600" alt="Momento especial 4">
+                            <div class="photo-comment">
+                                <p>"Viajando juntos... Descobrindo o mundo de mãos dadas 🌍"</p>
+                            </div>
+                        </div>
+                        <div class="spotify-embed">
+                            <iframe src="https://open.spotify.com/embed/track/7qiZfU4dY1lWllzX7mPBI3" width="100%" height="152" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-btn prev-btn" onclick="changeSlide(-1)">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="carousel-btn next-btn" onclick="changeSlide(1)">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+
+                <div class="carousel-indicators">
+                    <span class="indicator active" onclick="currentSlide(1)"></span>
+                    <span class="indicator" onclick="currentSlide(2)"></span>
+                    <span class="indicator" onclick="currentSlide(3)"></span>
+                    <span class="indicator" onclick="currentSlide(4)"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Love Declaration Section -->
+    <section class="declaration-section">
+        <div class="container">
+            <div class="declaration-content">
+                <h2 class="declaration-title">Minha Declaração de Amor</h2>
+                <div class="declaration-text">
+                    <p>Meu amor,</p>
+                    <p>Cada dia ao seu lado é uma nova descoberta, uma nova razão para sorrir e agradecer por ter você em minha vida. Você é a pessoa que faz meu coração bater mais forte, que traz luz aos meus dias mais escuros e que me faz acreditar que o amor verdadeiro existe.</p>
+                    
+                    <p>Desde o primeiro momento em que nos conhecemos, soube que você era especial. Seu sorriso ilumina qualquer ambiente, sua risada é a música mais doce que já ouvi, e seus olhos... ah, seus olhos guardam todo o universo que quero explorar para sempre.</p>
+                    
+                    <p>Obrigado(a) por ser meu porto seguro, minha melhor amiga, minha companheira de aventuras e sonhos. Obrigado(a) por me amar com todas as minhas imperfeições e por me fazer querer ser uma pessoa melhor a cada dia.</p>
+                    
+                    <p>Neste Dia dos Namorados, quero que saiba que meu amor por você cresce a cada segundo, a cada respiração, a cada batida do meu coração. Você é meu presente mais precioso, meu futuro mais desejado e meu presente mais amado.</p>
+                    
+                    <p class="signature">Com todo meu amor,<br>Para sempre seu(sua) ❤️</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <h3>Conecte-se Comigo</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-facebook"></i>
+                        <span>Facebook</span>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-twitter"></i>
+                        <span>Twitter</span>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>WhatsApp</span>
+                    </a>
+                    <a href="#" class="social-link">
+                        <i class="fab fa-spotify"></i>
+                        <span>Spotify</span>
+                    </a>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2024 - Feito com muito amor 💕</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
