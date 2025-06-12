@@ -444,3 +444,8 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
+
+.div-img {
+  width: 30vh;
+  height: 20vh;
+}
